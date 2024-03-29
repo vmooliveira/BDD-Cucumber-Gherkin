@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LeilaoCucumberRunner" project="leilao" tests="4" started="1" failures="0" errors="2" ignored="0">
+  <testsuite name="br.com.alura.leilao.acceptance.LeilaoCucumberRunner" time="0.089" incomplete="true" displayname="LeilaoCucumberRunner" uniqueid="[engine:junit-vintage]/[runner:br.com.alura.leilao.acceptance.LeilaoCucumberRunner]">
+    <error>org.junit.runner.notification.StoppedByUserException&#13;
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:151)&#13;
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:116)&#13;
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:192)&#13;
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:88)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:227)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)&#13;
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+    <testsuite name="Propondo lances ao leilao" incomplete="true" uniqueid="[engine:junit-vintage]/[runner:br.com.alura.leilao.acceptance.LeilaoCucumberRunner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAqY2xhc3NwYXRoOmZlYXR1cmVzL3Byb3BvbmRvX2xhbmNlcy5mZWF0dXJleA==]">
+      <testcase name="Propondo um unico lance valido" classname="Propondo um unico lance valido" time="0.086" uniqueid="[engine:junit-vintage]/[runner:br.com.alura.leilao.acceptance.LeilaoCucumberRunner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAqY2xhc3NwYXRoOmZlYXR1cmVzL3Byb3BvbmRvX2xhbmNlcy5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAAAhzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAKmNsYXNzcGF0aDpmZWF0dXJlcy9wcm9wb25kb19sYW5jZXMuZmVhdHVyZXg=]">
+        <error>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in br.com.alura.leilao.acceptance.steps.PropondoLanceSteps.um_lance_de_reais_do_usuario(java.lang.Double,java.lang.String) and br.com.alura.leilao.acceptance.steps.PropondoLanceSteps.um_lance_de_reais(java.lang.Double,java.lang.String)&#13;
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:241)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:235)&#13;
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:68)&#13;
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)&#13;
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:118)&#13;
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:192)&#13;
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:88)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:227)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)&#13;
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Propondo varios lances validos" classname="Propondo varios lances validos" incomplete="true" uniqueid="[engine:junit-vintage]/[runner:br.com.alura.leilao.acceptance.LeilaoCucumberRunner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAqY2xhc3NwYXRoOmZlYXR1cmVzL3Byb3BvbmRvX2xhbmNlcy5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAAA1zcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAKmNsYXNzcGF0aDpmZWF0dXJlcy9wcm9wb25kb19sYW5jZXMuZmVhdHVyZXg=]"/>
+      <testcase name="Propondo um lance invalido" classname="Propondo um lance invalido" incomplete="true" uniqueid="[engine:junit-vintage]/[runner:br.com.alura.leilao.acceptance.LeilaoCucumberRunner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAqY2xhc3NwYXRoOmZlYXR1cmVzL3Byb3BvbmRvX2xhbmNlcy5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABpzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAKmNsYXNzcGF0aDpmZWF0dXJlcy9wcm9wb25kb19sYW5jZXMuZmVhdHVyZXg=]"/>
+      <testcase name="Propondo um lance invalido" classname="Propondo um lance invalido" incomplete="true" uniqueid="[engine:junit-vintage]/[runner:br.com.alura.leilao.acceptance.LeilaoCucumberRunner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAqY2xhc3NwYXRoOmZlYXR1cmVzL3Byb3BvbmRvX2xhbmNlcy5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABtzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAKmNsYXNzcGF0aDpmZWF0dXJlcy9wcm9wb25kb19sYW5jZXMuZmVhdHVyZXg=]"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,9 @@
+io.cucumber.junit.UndefinedStepException: The step "um lance de 10.0 reais do usuario "fulano"" is undefined. You can implement it using the snippet(s) below:
+
+@Dado("um lance de {double} reais do usuario {string}")
+public void um_lance_de_reais_do_usuario(Double double1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

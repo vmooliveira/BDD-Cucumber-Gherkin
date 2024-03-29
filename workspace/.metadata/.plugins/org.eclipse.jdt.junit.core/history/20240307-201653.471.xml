@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LeilaoCucumberRunner" project="leilao" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="br.com.alura.leilao.acceptance.LeilaoCucumberRunner" time="0.001" displayname="LeilaoCucumberRunner" uniqueid="[engine:junit-vintage]/[runner:br.com.alura.leilao.acceptance.LeilaoCucumberRunner]">
+    <testcase name="br.com.alura.leilao.acceptance.LeilaoCucumberRunner" classname="br.com.alura.leilao.acceptance.LeilaoCucumberRunner" time="0.001" displayname="initializationError" uniqueid="[engine:junit-vintage]/[runner:br.com.alura.leilao.acceptance.LeilaoCucumberRunner]/[test:initializationError(br.com.alura.leilao.acceptance.LeilaoCucumberRunner)]">
+      <error>io.cucumber.core.gherkin.FeatureParserException: Failed to parse resource at: classpath:features/propondo_lances.feature
+(19:1): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ExamplesLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'Esquema do cenario: Propondo um lance invalido'&#13;
+	at io.cucumber.core.gherkin.messages.GherkinMessagesFeatureParser.parse(GherkinMessagesFeatureParser.java:52)&#13;
+	at io.cucumber.core.feature.FeatureParser.parseResource(FeatureParser.java:43)&#13;
+	at java.base/java.util.function.BiFunction.lambda$andThen$0(BiFunction.java:70)&#13;
+	at io.cucumber.core.resource.ResourceScanner.lambda$processResource$1(ResourceScanner.java:79)&#13;
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:67)&#13;
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:52)&#13;
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2811)&#13;
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2882)&#13;
+	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:46)&#13;
+	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:26)&#13;
+	at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)&#13;
+	at io.cucumber.core.resource.ResourceScanner.lambda$findResourcesForUris$3(ResourceScanner.java:104)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)&#13;
+	at io.cucumber.core.resource.ResourceScanner.findResourcesForUris(ResourceScanner.java:107)&#13;
+	at io.cucumber.core.resource.ResourceScanner.scanForClasspathResource(ResourceScanner.java:115)&#13;
+	at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:131)&#13;
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)&#13;
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)&#13;
+	at io.cucumber.junit.Cucumber.&lt;init&gt;(Cucumber.java:157)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)&#13;
+	at org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder.buildRunner(DefensiveAllDefaultPossibilitiesBuilder.java:114)&#13;
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)&#13;
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)&#13;
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)&#13;
+	at org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder.runnerForClass(DefensiveAllDefaultPossibilitiesBuilder.java:57)&#13;
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)&#13;
+	at org.junit.vintage.engine.discovery.ClassSelectorResolver.resolveTestClass(ClassSelectorResolver.java:66)&#13;
+	at org.junit.vintage.engine.discovery.ClassSelectorResolver.resolve(ClassSelectorResolver.java:47)&#13;
+	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution.lambda$resolve$2(EngineDiscoveryRequestResolution.java:134)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1602)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)&#13;
+	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution.resolve(EngineDiscoveryRequestResolution.java:185)&#13;
+	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution.resolve(EngineDiscoveryRequestResolution.java:125)&#13;
+	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution.resolveCompletely(EngineDiscoveryRequestResolution.java:91)&#13;
+	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution.run(EngineDiscoveryRequestResolution.java:82)&#13;
+	at org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolver.resolve(EngineDiscoveryRequestResolver.java:113)&#13;
+	at org.junit.vintage.engine.discovery.VintageDiscoverer.discover(VintageDiscoverer.java:44)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:63)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.discoverEngineRoot(DefaultLauncher.java:181)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.discoverRoot(DefaultLauncher.java:168)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.discover(DefaultLauncher.java:124)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.&lt;init&gt;(JUnit5TestReference.java:47)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestLoader.createUnfilteredTest(JUnit5TestLoader.java:88)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestLoader.createTest(JUnit5TestLoader.java:69)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestLoader.loadTests(JUnit5TestLoader.java:56)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:513)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

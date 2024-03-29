@@ -1,0 +1,1 @@
+Através do Cucumber (ferramenta) é possível escrever os critérios de aceitação em BDD (metodologia)

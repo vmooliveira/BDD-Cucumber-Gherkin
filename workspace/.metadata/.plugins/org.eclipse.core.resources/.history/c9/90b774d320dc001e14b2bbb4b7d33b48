@@ -1,0 +1,8 @@
+#language: pt
+
+Funcionalidades: Propondo lances
+
+Scenario: Porpondo um único lance válido
+	Given um lance válido
+	When propõe o lance
+	Then o lance é aceito

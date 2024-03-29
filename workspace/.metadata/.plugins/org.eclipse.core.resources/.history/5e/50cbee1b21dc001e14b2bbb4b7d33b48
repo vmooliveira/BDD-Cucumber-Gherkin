@@ -1,0 +1,8 @@
+#language: pt
+
+Funcionalidades: Propondo lances
+
+Scenario: Propondo um unico lance valido
+	Dado um lance valido
+	Quando propoe o lance
+	Entao o lance e aceito

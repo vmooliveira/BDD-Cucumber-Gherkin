@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+trustAllAuthorities=false
+trustAlways=false
+trustedAuthorities=https\://download.eclipse.org https\://archive.eclipse.org https\://cdn.spring.io https\://cucumber.github.io/cucumber-eclipse-update-site-snapshot/

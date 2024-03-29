@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LeilaoCucumberRunner" project="leilao" tests="4" started="4" failures="0" errors="2" ignored="0">
+  <testsuite name="br.com.alura.leilao.acceptance.LeilaoCucumberRunner" time="0.14" displayname="LeilaoCucumberRunner" uniqueid="[engine:junit-vintage]/[runner:br.com.alura.leilao.acceptance.LeilaoCucumberRunner]">
+    <testsuite name="Propondo lances ao leilao" time="0.14" uniqueid="[engine:junit-vintage]/[runner:br.com.alura.leilao.acceptance.LeilaoCucumberRunner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAqY2xhc3NwYXRoOmZlYXR1cmVzL3Byb3BvbmRvX2xhbmNlcy5mZWF0dXJleA==]">
+      <testcase name="Propondo um unico lance valido" classname="Propondo um unico lance valido" time="0.101" uniqueid="[engine:junit-vintage]/[runner:br.com.alura.leilao.acceptance.LeilaoCucumberRunner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAqY2xhc3NwYXRoOmZlYXR1cmVzL3Byb3BvbmRvX2xhbmNlcy5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAAAhzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAKmNsYXNzcGF0aDpmZWF0dXJlcy9wcm9wb25kb19sYW5jZXMuZmVhdHVyZXg=]"/>
+      <testcase name="Propondo varios lances validos" classname="Propondo varios lances validos" time="0.009" uniqueid="[engine:junit-vintage]/[runner:br.com.alura.leilao.acceptance.LeilaoCucumberRunner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAqY2xhc3NwYXRoOmZlYXR1cmVzL3Byb3BvbmRvX2xhbmNlcy5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAAA1zcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAKmNsYXNzcGF0aDpmZWF0dXJlcy9wcm9wb25kb19sYW5jZXMuZmVhdHVyZXg=]"/>
+      <testcase name="Propondo um lance invalido" classname="Propondo um lance invalido" time="0.027" uniqueid="[engine:junit-vintage]/[runner:br.com.alura.leilao.acceptance.LeilaoCucumberRunner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAqY2xhc3NwYXRoOmZlYXR1cmVzL3Byb3BvbmRvX2xhbmNlcy5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABpzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAKmNsYXNzcGF0aDpmZWF0dXJlcy9wcm9wb25kb19sYW5jZXMuZmVhdHVyZXg=]">
+        <error>io.cucumber.junit.UndefinedStepException: The step "um lance invalido de 0 reais do 'fulano'" is undefined. You can implement it using the snippet(s) below:
+
+@Dado("um lance invalido de {int} reais do {string}")
+public void um_lance_invalido_de_reais_do(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Propondo um lance invalido" classname="Propondo um lance invalido" time="0.003" uniqueid="[engine:junit-vintage]/[runner:br.com.alura.leilao.acceptance.LeilaoCucumberRunner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAqY2xhc3NwYXRoOmZlYXR1cmVzL3Byb3BvbmRvX2xhbmNlcy5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABtzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAKmNsYXNzcGF0aDpmZWF0dXJlcy9wcm9wb25kb19sYW5jZXMuZmVhdHVyZXg=]">
+        <error>io.cucumber.junit.UndefinedStepException: The step "um lance invalido de -1 reais do 'ciclano'" is undefined. You can implement it using the snippet(s) below:
+
+@Dado("um lance invalido de {int} reais do {string}")
+public void um_lance_invalido_de_reais_do(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

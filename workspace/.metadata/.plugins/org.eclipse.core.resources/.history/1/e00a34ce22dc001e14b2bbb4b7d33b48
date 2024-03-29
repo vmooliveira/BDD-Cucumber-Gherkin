@@ -1,0 +1,29 @@
+package br.com.alura.leilao.acceptance.steps;
+
+import java.math.BigDecimal;
+
+import br.com.alura.leilao.model.Lance;
+import br.com.alura.leilao.model.Usuario;
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Entao;
+import io.cucumber.java.pt.Quando;
+
+public class PropondoLanceSteps {
+	private Lance lance;
+	
+	@Dado("um lance valido")
+	public void um_lance_valido() {
+		Usuario usuario = new Usuario("fulano");
+		lance = new Lance(usuario, BigDecimal.TEN);
+	}
+
+	@Quando("propoe o lance")
+	public void propoe_o_lance() {
+
+	}
+	@Entao("o lance e aceito")
+	public void o_lance_e_aceito() {
+
+	}
+
+}

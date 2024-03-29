@@ -1,0 +1,24 @@
+package br.com.alura.leilao.acceptance.steps;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class PropondoLanceSteps {
+	@Given("um lance válido")
+	public void um_lance_válido() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("propõe o lance")
+	public void propõe_o_lance() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Then("o lance é aceito")
+	public void o_lance_é_aceito() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+}
